@@ -1,7 +1,7 @@
 <?php 
 error_reporting(0);
 $username = $_GET['getir'];
-$cookie=" sessionid=50416151894%3AweR0FmsnQUOOcK%3A4";
+$cookie=" sessionid=50264246565%3AupCS8N82MRT2Ii%3A27";
 $ch = curl_init();
 curl_setopt($ch, CURLOPT_URL, 'https://www.instagram.com/'.$username.'?__a=1');
 curl_setopt($ch, CURLOPT_HEADER, 0);
