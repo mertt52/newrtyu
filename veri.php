@@ -35,13 +35,13 @@ $pp = 'data:image/png;base64,'.$imgData;
     
 // An associative array
 $marks = array(
-"1"=>$tt,
-"2"=>$ttt, 
-"3"=>$gon, 
-"4"=>$mavi,
- "5"=>$bio,
- "6"=>$pp, 
- "7"=>$name, 
+"takipci"=>$tt,
+"takip"=>$ttt, 
+"gonderi"=>$gon, 
+"mavi"=>$mavi,
+ "bio"=>$bio,
+ "pp"=>$pp, 
+ "isim"=>$name, 
 )   ;
 echo  json_encode($marks,JSON_UNESCAPED_SLASHES );
 ?>
